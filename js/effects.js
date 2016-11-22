@@ -98,6 +98,7 @@ for (var i = 0; i < starCount; i++) {
                 //★ DYANMIC TEXT ★//
 //==============================================//
 title.innerHTML = 'Jordan Kimura';
+document.write('<?php include_once("assets/analyticstracking.php") ?>');
 profileImg.innerHTML = '<img class="img_profile" src="img/original/digital/jordan.png">';
 greeting1.innerHTML = "Hi! I'm Jordan.";
 greeting2.innerHTML = "I'm a UI/UX Strategist, Front-End Developer, Illustrator and Green Drink Enthusiast.";
