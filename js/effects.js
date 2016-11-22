@@ -72,18 +72,18 @@ var delayTimeMax = 7;
 var starContainer = $('#starContainer');
 
 var height = starContainer.height();
-console.log("height", height);
+// console.log("height", height);
 
 var width = starContainer.width();
-console.log("width", width);
+// console.log("width", width);
 
 for (var i = 0; i < starCount; i++) {
     var starLeft = Math.floor((Math.random() * width) + 1); //number 1 plus
     var starTop = Math.floor((Math.random() * height) + 1);
     var delaytime = Math.random() * delayTimeMax;
 
-    console.log("starLeft", starLeft);
-    console.log("starTop", starTop);
+    // console.log("starLeft", starLeft);
+    // console.log("starTop", starTop);
 
     var starLight = $("<li>", {
         class: "starlight"
@@ -94,24 +94,10 @@ for (var i = 0; i < starCount; i++) {
             });
             starContainer.append(starLight); //apppending starLight to .star_container
             }
-   var googleA = (function(i, s, o, g, r, a, m) {
-     i['GoogleAnalyticsObject'] = r;
-     i[r] = i[r] || function() {
-       (i[r].q = i[r].q || []).push(arguments)
-     }, i[r].l = 1 * new Date();
-     a = s.createElement(o),
-       m = s.getElementsByTagName(o)[0];
-     a.async = 1;
-     a.src = g;
-     m.parentNode.insertBefore(a, m)
-   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-   ga('create', 'UA-87796241-1', 'auto');
-   ga('send', 'pageview');
 //==============================================//
                 //★ DYANMIC TEXT ★//
 //==============================================//
 title.innerHTML = 'Jordan Kimura';
-document.getElementsByTagName('head').innerHTML = googleA; 
 profileImg.innerHTML = '<img class="img_profile" src="img/original/digital/jordan.png">';
 greeting1.innerHTML = "Hi! I'm Jordan.";
 greeting2.innerHTML = "I'm a UI/UX Strategist, Front-End Developer, Illustrator and Green Drink Enthusiast.";
