@@ -236,7 +236,7 @@ body #cdawrap .carbon-text {
     margin-bottom: 0px;
     color: inherit;
     position: relative;
-    /*-webkit-box-shadow: inset -6px -6px 21px -5px #77d45b;*/
+    -webkit-box-shadow: inset -6px -6px 21px -5px #77d45b;
 }
 
 .home_content {
