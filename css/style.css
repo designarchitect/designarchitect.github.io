@@ -684,11 +684,6 @@ a.a_resume, a.a_resume:link, a.a_resume:visited, a.a_resume:hover, a.a_resume:fo
     .img_profile {
         width: 150px;
     }
-    .gallery {
-        /* margin: 2em 0 0; */
-        display: table-caption;
-        text-align: center;
-    }
     .about_right {
         background-color: #fff;
         float: right;
@@ -715,7 +710,6 @@ a.a_resume, a.a_resume:link, a.a_resume:visited, a.a_resume:hover, a.a_resume:fo
         padding-left: 0;
         float: left;
     }
-    .footer_resume {}
     .resume_button {
         width: 100%;
     }
