@@ -134,7 +134,7 @@ greeting3.innerHTML = "Illustrator and Green Drink Enthusiast.";
 faIcons.innerHTML = '<i class="fa fa-code fa-2x" aria-hidden="true"></i>' + '<i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>';
 galleryTitle.innerHTML = 'Portfolio' + '<span>Jordan Kimura</span>';
 portfolioSection1.innerHTML = 'UI/UX &amp; Digital';
-portfolioSection2.innerHTML = 'Front-End Development';
+portfolioSection2.innerHTML = 'Web Development';
 portfolioSection3.innerHTML = 'Print';
 portfolioSection4.innerHTML = 'Illustration';
 aboutHeader.innerHTML = 'About';
