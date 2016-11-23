@@ -75,6 +75,8 @@ button:focus {
 
 .img_profile {
     width: 200px;
+		z-index: 10000;
+    position: relative;
 }
 
 .links {
