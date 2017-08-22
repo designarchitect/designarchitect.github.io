@@ -130,7 +130,7 @@ document.getElementsByTagName('head').innerHTML = googleA;
 profileImg.innerHTML = '<img class="img_profile" src="img/original/digital/jordan.png">';
 greeting1.innerHTML = "Hi! I'm Jordan.";
 greeting2.innerHTML = "I'm a UI/UX Designer, Marketing Strategist,";
-greeting3.innerHTML = "and Health Enthusiast.";
+greeting3.innerHTML = "and Wellness Enthusiast.";
 faIcons.innerHTML = '<i class="fa fa-code fa-2x" aria-hidden="true"></i>' + '<i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>';
 galleryTitle.innerHTML = 'Portfolio' + '<span>Jordan Kimura</span>';
 portfolioSection1.innerHTML = 'UI/UX/Graphic Design';
