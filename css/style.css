@@ -443,7 +443,7 @@ body #cdawrap .carbon-text {
     width: 100%;
     height: 10vh;
     text-align: center;
-    color: #4c5962;
+    color: #91a1ad;
     overflow: hidden;
     background-image: url("../img/original/dark_wall.png");
     background-repeat: repeat;
@@ -708,11 +708,11 @@ a.a_resume, a.a_resume:link, a.a_resume:visited, a.a_resume:hover, a.a_resume:fo
         height: 100%;
     }
     .footer_left_content {
-        color: #4c5962;
+        color: #91a1ad;
         float: left;
     }
     .footer_right_content {
-        color: #4c5962;
+        color: #91a1ad;
         margin: 0;
         padding-left: 0;
         float: left;

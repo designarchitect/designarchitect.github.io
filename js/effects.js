@@ -114,14 +114,13 @@ for (var i = 0; i < starCount; i++) {
 //★ DYANMIC TEXT ★//
 //==============================================//
 title.innerHTML = 'Jordan Kimura';
-document.getElementsByTagName('head').innerHTML = googleA;
 profileImg.innerHTML = '<img class="img_profile" src="img/original/digital/jordan.png">';
 greeting1.innerHTML = "Hi! I'm Jordan.";
-greeting2.innerHTML = "I'm a UI/UX Designer, Marketing Strategist,";
+greeting2.innerHTML = "I'm a UI/UX Designer, Developer,";
 greeting3.innerHTML = "and Wellness Enthusiast.";
 faIcons.innerHTML = '<i class="fa fa-code fa-2x" aria-hidden="true"></i>' + '<i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>';
 galleryTitle.innerHTML = 'Portfolio' + '<span>Jordan Kimura</span>';
-portfolioSection1.innerHTML = 'UI/UX/Graphic Design';
+portfolioSection1.innerHTML = 'UI/UX/Design';
 portfolioSection2.innerHTML = 'Web Development';
 portfolioSection3.innerHTML = 'Print';
 portfolioSection4.innerHTML = 'Photography';
@@ -130,9 +129,9 @@ aboutHeader.innerHTML = 'About';
 aboutP1.innerHTML = 'Well hello there, thanks for stopping by!';
 aboutP2.innerHTML = 'My name is Jordan Kimura and I earned a B.A. in Graphic Design and an M.B.A. with an emphasis in Strategic Marketing while playing college tennis. Passionate about creating meaningful things that are enriching, I strive to implement well-branded creative assets and content deliverables.';
 aboutDevSkills.innerHTML = 'Development Skills';
-aboutDevIcons.innerHTML = '<img src="img/icons/06_icons.png">' + '<img src="img/icons/07_icons.png">' + '<img src="img/icons/08_icons.png">' + '<img src="img/icons/09_icons.png">' + '<img src="img/icons/10_icons.png">' + '<img src="img/icons/12_icons.png">' + '<img src="img/icons/11_icons.png">';
+aboutDevIcons.innerHTML = '<img src="img/icons/06_icons.png">' + '<img src="img/icons/07_icons.png">' + '<img src="img/icons/08_icons.png">' + '<img src="img/icons/14_icons.png">' + '<img src="img/icons/09_icons.png">' + '<img src="img/icons/10_icons.png">' + '<img src="img/icons/12_icons.png">' + '<img src="img/icons/11_icons.png">';
 aboutDesignSkills.innerHTML = 'Design Skills';
-aboutDesignIcons.innerHTML = '<img src="img/icons/01_icons.png"> ' + '<img src="img/icons/02_icons.png"> ' + '<img src="img/icons/03_icons.png"> ' + '	<img src="img/icons/04_icons.png"> ' + '<img src="img/icons/05_icons.png">';
+aboutDesignIcons.innerHTML = '<img src="img/icons/13_icons.png"> ' + '<img src="img/icons/01_icons.png"> ' + '<img src="img/icons/02_icons.png"> ' + '<img src="img/icons/03_icons.png"> ' + '	<img src="img/icons/04_icons.png"> ' + '<img src="img/icons/05_icons.png">';
 
 //resumeBtn.innerHTML = '<a class="a_resume" href="" target="_blank">View Resume </a><i class="fa fa-file-pdf-o" aria-hidden="true"></i>';
 email.innerHTML = '<i class="fa fa-envelope" aria-hidden="true"></i>' + '<a href="mailto:jordantennis7@gmail.com" class="email"> jordantennis7@gmail.com</a>';
