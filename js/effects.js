@@ -1,7 +1,21 @@
 //==============================================//
 //★ EFFECTS ★//
 //==============================================//
+$(document).ready(function() {
+    // $(".about").tooltip({ selector: '[data-toggle=tooltip]' });
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    })
+    $('#anchor1').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+});
+
 (function() {
+
     var support = {
             transitions: Modernizr.csstransitions
         },
@@ -129,9 +143,9 @@ aboutHeader.innerHTML = 'About';
 aboutP1.innerHTML = 'Well hello there, thanks for stopping by!';
 aboutP2.innerHTML = 'My name is Jordan Kimura and I earned a B.A. in Graphic Design and an M.B.A. with an emphasis in Strategic Marketing while playing college tennis. Passionate about creating meaningful things that are enriching, I strive to implement well-branded creative assets and content deliverables.';
 aboutDevSkills.innerHTML = 'Development Skills';
-aboutDevIcons.innerHTML = '<img src="img/icons/06_icons.png">' + '<img src="img/icons/07_icons.png">' + '<img src="img/icons/08_icons.png">' + '<img src="img/icons/14_icons.png">' + '<img src="img/icons/09_icons.png">' + '<img src="img/icons/10_icons.png">' + '<img src="img/icons/12_icons.png">' + '<img src="img/icons/11_icons.png">';
+aboutDevIcons.innerHTML = '<img src="img/icons/06_icons.png" alt="HTML"  data-toggle="tooltip" data-placement="bottom" title="HTML">' + '<img src="img/icons/07_icons.png" alt="CSS" data-toggle="tooltip" data-placement="bottom" title="CSS">' + '<img src="img/icons/08_icons.png" alt="JavaScript" data-toggle="tooltip" data-placement="bottom" title="JavaScript">' + '<img src="img/icons/14_icons.png" alt="Angular" data-toggle="tooltip" data-placement="bottom" title="Angular">' + '<img src="img/icons/09_icons.png" alt="jQuery" data-toggle="tooltip" data-placement="bottom" title="jQuery">' + '<img src="img/icons/10_icons.png" alt="SASS" data-toggle="tooltip" data-placement="bottom" title="SASS">' + '<img src="img/icons/12_icons.png" alt="Bootstrap" data-toggle="tooltip" data-placement="bottom" title="Bootstrap">' + '<img src="img/icons/11_icons.png" alt="Github" data-toggle="tooltip" data-placement="bottom" title="Github">';
 aboutDesignSkills.innerHTML = 'Design Skills';
-aboutDesignIcons.innerHTML = '<img src="img/icons/13_icons.png"> ' + '<img src="img/icons/01_icons.png"> ' + '<img src="img/icons/02_icons.png"> ' + '<img src="img/icons/03_icons.png"> ' + '	<img src="img/icons/04_icons.png"> ' + '<img src="img/icons/05_icons.png">';
+aboutDesignIcons.innerHTML = '<img src="img/icons/13_icons.png" alt="Sketch" data-toggle="tooltip" data-placement="bottom" title="Sketch"> ' + '<img src="img/icons/01_icons.png" alt="Photoshop" data-toggle="tooltip" data-placement="bottom" title="Photoshop"> ' + '<img src="img/icons/02_icons.png" alt="Illustrator" data-toggle="tooltip" data-placement="bottom" title="Illustrator"> ' + '<img src="img/icons/03_icons.png" alt="After Effects" data-toggle="tooltip" data-placement="bottom" title="After Effects"> ' + '	<img src="img/icons/04_icons.png" alt="Premiere" data-toggle="tooltip" data-placement="bottom" title="Premiere"> ' + '<img src="img/icons/05_icons.png" alt="InDesign" data-toggle="tooltip" data-placement="bottom" title="InDesign">';
 
 //resumeBtn.innerHTML = '<a class="a_resume" href="" target="_blank">View Resume </a><i class="fa fa-file-pdf-o" aria-hidden="true"></i>';
 email.innerHTML = '<i class="fa fa-envelope" aria-hidden="true"></i>' + '<a href="mailto:jordantennis7@gmail.com" class="email"> jordantennis7@gmail.com</a>';
